@@ -14,7 +14,7 @@ from pyTensible import __version__ as VERSION
 NAME = "pyTensible"
 
 PACKAGES = ['pyTensible', 'pyTensible.base', 'pyTensible.base.pyTensible']
-				
+
 PACKAGE_DATA = {'pyTensible.base.pyTensible': ['manifest.mf']}
 
 DESCRIPTION = 'A simple lightweight extension framework'
@@ -49,4 +49,4 @@ setup(name=NAME,
       packages=PACKAGES,
       package_data=PACKAGE_DATA,
       classifiers=CLASSIFIERS
-     )
+      )
